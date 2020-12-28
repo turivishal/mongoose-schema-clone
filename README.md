@@ -2,21 +2,21 @@
 
 Deep clone and Returns a copy of the schema, Adds key path / schema type pairs to this schema and You can also add another schema and copy over all paths, virtuals, getters, setters, indexes, methods, and statics.
 
-## FEATURES
+### FEATURES:
 * Deep Clone Schema
 * Copy paths, virtuals, getters, setters, indexes, methods, and statics
 
-## INSTALLATION
+### INSTALLATION:
 ```
-$ npm i --save mongoose-schema-clone
+npm install --save mongoose-schema-clone
 ```
 
-## USAGE
+### USAGE:
 ```
 const mongooseSchemaClone = require("mongoose-schema-clone");
 ```
 
-## EXAMPLE
+### EXAMPLE:
 ```
 const mongoose = require("mongoose");
 const mongooseSchemaClone = require("mongoose-schema-clone");
@@ -28,20 +28,18 @@ const ParentSchema = new mongoose.Schema({
 
 const ChildSchema = mongooseSchemaClone(ParentSchema, {
     address: { 
-        type: [
-            {
-                location: { type: String },
-                city: { type: String },
-                state: { type: String },
-                country: { type: String },
-                postalCode: { type: String }
-            }
-        ] 
+        type: [{
+            location: { type: String },
+            city: { type: String },
+            state: { type: String },
+            country: { type: String },
+            postalCode: { type: String }
+        }] 
     }
 });
 ```
 
-## SOURCE
+### SOURCE:
 The source is [mongoose-npm](https://www.npmjs.com/package/mongoose) method [add()](https://mongoosejs.com/docs/api/schema.html#schema_Schema-add).
 ```
 const mongoose = require("mongoose");
@@ -51,8 +49,8 @@ module.exports = (Schema, Definition) => {
 }
 ```
 
-## CONTACT US
+### CONTACT US:
 Email: turivishal@gmail.com
 
-## LICENSE
+### LICENSE:
 Mongoose Schema Clone is released under the [MIT License](http://www.opensource.org/licenses/MIT).
