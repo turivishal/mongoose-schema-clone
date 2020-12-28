@@ -1,6 +1,6 @@
 {
   "name": "@turivishal/mongoose-schema-clone",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Clone mongoose schema to new schema",
   "main": "index.js",
   "scripts": {
