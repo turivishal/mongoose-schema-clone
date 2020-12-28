@@ -1,6 +1,6 @@
 {
   "name": "@turivishal/mongoose-schema-clone",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Clone mongoose schema to new schema",
   "main": "index.js",
   "scripts": {
@@ -31,6 +31,6 @@
     "mongoose": "*"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com/@turivishal/mongoose-schema-node"
   }
 }
