@@ -1,0 +1,1 @@
+# mongoose-schema-clone
