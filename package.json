@@ -31,6 +31,6 @@
     "mongoose": "*"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@turivishal/mongoose-schema-node"
+    "registry": "https://npm.pkg.github.com/turivishal"
   }
 }
