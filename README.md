@@ -1,7 +1,7 @@
-[![Version](https://img.shields.io/github/v/release/turivishal/mongoose-schema-clone)](https://github.com/turivishal/mongoose-schema-clone/tree/0.0.10)
-[![Version](https://img.shields.io/github/v/release/turivishal/mongoose-schema-clone?color=red&label=npm)](https://www.npmjs.com/package/mongoose-schema-clone)
-
 # Mongoose Schema Clone
+
+[![Version](https://img.shields.io/github/v/release/turivishal/mongoose-schema-clone)](https://github.com/turivishal/mongoose-schema-clone/tree/0.1.0)
+[![Version](https://img.shields.io/github/v/release/turivishal/mongoose-schema-clone?color=red&label=npm)](https://www.npmjs.com/package/mongoose-schema-clone)
 
 Deep clone and Returns a copy of the schema, Adds key path / schema type pairs to this schema and You can also add another schema and copy over all paths, virtuals, getters, setters, indexes, methods, and statics.
 

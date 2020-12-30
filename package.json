@@ -1,6 +1,6 @@
 {
   "name": "mongoose-schema-clone",
-  "version": "0.0.10",
+  "version": "0.1.0",
   "description": "Clone mongoose schema to new schema",
   "main": "index.js",
   "scripts": {
